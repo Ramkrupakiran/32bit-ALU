@@ -1,0 +1,10 @@
+Time=0 A=        10 B=        15 opcode=0000 result=        25
+Time=20000 A=        50 B=        23 opcode=0001 result=        27
+Time=40000 A=        29 B=        25 opcode=0010 result=        25
+Time=60000 A=        30 B=        40 opcode=0011 result=        62
+Time=80000 A=        40 B=        50 opcode=0100 result=        26
+Time=100000 A=        35 B=        55 opcode=0101 result=4294967260
+Time=120000 A=         5 B=        55 opcode=0110 result=        10
+Time=140000 A=        12 B=        55 opcode=0111 result=         6
+Time=160000 A=        60 B=        40 opcode=1000 result=         1
+tb/alu32_tb.v:75: $finish called at 180000 (1ps)
