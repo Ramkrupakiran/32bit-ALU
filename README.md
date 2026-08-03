@@ -26,7 +26,7 @@ A 32-bit Arithmetic Logic Unit (ALU) designed and implemented using **Verilog HD
 - Verilog HDL
 - Visual Studio Code
 - Icarus Verilog
-- VS Code Waveform Viewer / GTKWave
+- VS Code Waveform Viewer
 - Git
 - GitHub
 
@@ -107,7 +107,7 @@ Time=80000  A=40  B=50  opcode=0100  result=26
 
 ## 📷 Waveform
 
-![Waveform](waveform.png)
+![Waveform](images/waveform.png)
 
 ---
 ## 🏗 ALU Architecture
@@ -123,7 +123,7 @@ The 32-bit ALU accepts two 32-bit operands (`A` and `B`) and a 4-bit opcode. Bas
 
 ### Architecture Diagram
 
-![ALU Architecture](image.png)
+![ALU Architecture](images/alu32%20architecture.png)
 
 ---
 ## 📄 Project Report
