@@ -107,31 +107,39 @@ Time=80000  A=40  B=50  opcode=0100  result=26
 
 ## 📷 Waveform
 
-Add your waveform screenshot here after uploading it to the `images` folder.
-
-```markdown
-![Waveform](images/waveform.png)
-```
+![Waveform](waveform.png)
 
 ---
-
 ## 🏗 ALU Architecture
+The 32-bit ALU accepts two 32-bit operands (`A` and `B`) and a 4-bit opcode. Based on the opcode, the control logic selects one of the supported arithmetic, logical, shift, or comparison operations. The selected operation is routed through a multiplexer to produce the final 32-bit output.
 
-Add your ALU block diagram here after uploading it to the `images` folder.
+### Inputs
+- **A [31:0]** – First 32-bit operand
+- **B [31:0]** – Second 32-bit operand
+- **Opcode [3:0]** – Selects the ALU operation
 
-```markdown
-![ALU Architecture](images/alu_architecture.png)
-```
+### Output
+- **Result [31:0]** – Result of the selected operation
+
+### Architecture Diagram
+
+![ALU Architecture](image.png)
 
 ---
+## 📄 Project Report
 
-## 📄 Documentation
+A comprehensive project report is included in the `docs` folder. It covers:
 
-A detailed project report is available in:
+- Project objectives
+- ALU architecture
+- RTL design
+- Supported operations
+- Testbench implementation
+- Simulation results
+- Waveform analysis
+- Future improvements
 
-```
-docs/Project_Report.pdf
-```
+📄 **Report:** `docs/Project_Report.pdf`
 
 ---
 
